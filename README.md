@@ -17,5 +17,6 @@
 
 ## Instructions
     * "gallery" folder will be contains seajs and other libary like jquery etc.
-    * "modules" will be puted the independent module of ourselfs,like msPickPlugin developed by zhiwei;and it will be contains their css/images/pages/source.
+    * "modules" will be puted the independent module of ourselfs,like msPickPlugin developed by zhiwei;
+      and it will be contains their css/images/pages/source.
     * node_modules contains plugins of grunt.
