@@ -1,0 +1,11 @@
+{
+    "family": "test",
+    "version": "1.0.0",
+    "name": "gruntTest",
+    "spm": {
+        "alias": {
+            "msPick": "dist/msPick/msPickPlugin",
+            "dataFile": "dist/msPick/city-industry-job-data"
+        }
+    }
+}

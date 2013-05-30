@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+    <script type="text/javascript" src="../../gallery/jquery-1.7.2.min.js"></script>
+</head>
+<body>
+	<script type="text/javascript" src="../../gallery/sea.js"></script>
+	<script type="text/javascript">
+	// 配置 jquery 并放入预加载项中
+		/*seajs.config({
+		  alias: {
+		    'jquery': 'jquery-1.7.2.min'
+		  },
+		  preload: ["jquery"]
+		});
+
+		// 将 jQuery 暴露到全局
+		seajs.modify('jquery', function(require, exports) {
+		  exports = window.jQuery = window.$
+		});*/
+
+        seajs.use('../test1/src/test');
+        //alert(0);
+	</script>
+    <h1>aaaaaaaaaaaaaaaaaaaaaa</h1> 
+    <script type="text/javascript">
+        $(function (){
+            //$('body').css('background','green');
+            $('h1').css('color','#f30');
+        });
+    </script>
+</body>
+</html>
